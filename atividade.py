@@ -1,5 +1,6 @@
 import os
 path = "."
+conteudo = input()
 def pesquisar(conteudo):
     for _, dirs, files in os.walk(path): 
         for file in files:
